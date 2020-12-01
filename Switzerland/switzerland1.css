@@ -1,0 +1,27 @@
+.flag {
+    background-color: #ff0002;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.flag::before {
+    background-color: #ffffff;
+    content: "";
+    height: 15%;
+    left: 2;
+    margin-top: -5%;
+    position: absolute;
+    top: 10%;
+    width: 10%;
+}
+.flag::after {
+    background-color: #ffffff;
+    content: "";
+    height: 10%;
+    left: 20%;
+    margin-left: -5%;
+    position: absolute;
+    top: 10%;
+    width: 10%;
+}
